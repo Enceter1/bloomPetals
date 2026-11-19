@@ -1,0 +1,64 @@
+header {
+    background-color: rgb(250, 76, 186);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.naviglist {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.naviglist li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.searchbar {
+    display: flex;
+    background-color: rgb(90, 90, 90);
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 9999px;
+}
+
+.searchbar input {
+    border-radius: 9999px;
+    background-color: rgb(221, 221, 221);
+}
+
+
+footer {
+    background-color: rgb(250, 76, 186);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(255, 147, 214);
+    margin-top: 100px;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.champ {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.bouton-submit {
+    padding: 50px 24px;
+}
